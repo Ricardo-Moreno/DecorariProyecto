@@ -1,0 +1,31 @@
+@import "./variables";
+@import "./media-queries";
+
+.preguntas {
+    font-family: $subletras;
+    &_titulo {
+        display: flex;
+        justify-content: center;
+        color: $dorado;
+        font-size: $titulos;
+        @include tablet {
+            font-size: 2rem;
+        }
+        @include movil {
+            font-size: 1.5rem;
+        }
+    }
+    &_barra {
+        .preguntas_item {
+            background-color: $rosaClaro;
+            color: black;
+        }
+    }
+}
+
+.preguntas_boton {
+    color: $dorado;
+    display: flex;
+    align-items: center;
+    background-color: $rosaClaro;
+}
