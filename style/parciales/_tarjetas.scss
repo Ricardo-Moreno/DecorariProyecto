@@ -17,13 +17,14 @@
             text-align: center;
                 .tarjetas_img_bg {
                     width: 15rem;
+                    height: 15rem;
                     -webkit-transform: height 1s, width 1s;
                     transform: height 1s, width 1s;
                     display: -webkit-box;
                     display: -ms-flexbox;
                     display: flex;
                     -ms-flex-pack: distribute;
-                        justify-content: space-around;
+                    justify-content: space-around;
                         @include movil {
                             width: 13rem;
                         }
