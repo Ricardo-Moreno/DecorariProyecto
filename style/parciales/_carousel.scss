@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./media-queries";
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dorado;
+    font-size: 10rem;
+    font-family: $letras;
+    @include tablet {
+        font-size: 4rem;
+    }
+    @include movil {
+        font-size: 2rem;
+    }
+}
+
+.titulo_sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $dorado;
+    font-family: $subletras;
+}

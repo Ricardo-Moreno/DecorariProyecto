@@ -1,0 +1,65 @@
+@import "./variables";
+@import "./media-queries";
+
+.header {
+    &_text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $rosaClaro;
+    }
+
+    &_horz {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .header_vertical_img {
+            display: flex;
+            justify-content: end;
+
+            .header_img {
+                width: 12rem;
+                height: 12rem;
+                -webkit-transform: height 1s, width 1s;
+                transform: height 1s, width 1s;
+
+                @include movil {
+                    width: 6rem;
+                    height: 6rem;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .header_img:hover {
+            height: 16rem;
+            width: 16rem;
+
+            @include movil {
+                width: 10rem;
+                height: 10rem;
+            }
+        }
+
+        .header_vertical_buscador {
+            display: flex;
+            margin-top: 1rem;
+
+            .header_buscador {
+                .header_buscador_boton {
+                    color: black;
+                    border-color: black;
+                }
+            }
+        }
+    }
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

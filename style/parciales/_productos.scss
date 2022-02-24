@@ -1,0 +1,39 @@
+@import "./variables";
+@import "./media-queries";
+
+.catalogo_vert {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@for $i from 1 through 3 {
+    .p-#{$i} {font-size: 0.9rem * $i;}
+    .p-#{$i} {color: black;}
+    .p-#{$i} {display: flex;}
+    .p-#{$i} {justify-content: center;}
+    .p-#{$i} {background-color: $rosaClaro;}
+    .p-#{$i} {font-family: $subletras;}
+    @include movil {
+        .p-#{$i} {font-size: 0.6rem * $i;}
+    }
+}
+
+
+@each $decorari in uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince, dieciseis {
+    .productoDestacado#{$decorari} {
+    width: $tamano;
+    -webkit-transform: height 1s, width 1s;
+    transform: height 1s, width 1s;
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+    }
+    }
+}
+.catalogo_img:hover {
+    height: 23rem;
+    width: 23rem;
+}

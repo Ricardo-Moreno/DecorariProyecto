@@ -1,0 +1,28 @@
+@import "./variables";
+@import "./media-queries";
+
+.crea_horz {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .crea_titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 4rem;
+        font-family: $letras;
+    }
+    .crea_vert {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: $dorado;
+        .crea_texto {
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: $letras;
+        }
+    }
+}

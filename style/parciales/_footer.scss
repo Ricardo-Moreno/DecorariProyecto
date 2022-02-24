@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./media-queries";
+
+
+.footer_redes {
+    background: $rosaClaro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_vert {
+    background: $rosaClaro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .footer_mapa {
+        width: 16rem;
+        @include movil {
+            width: 8rem;
+            display: flex;
+        }
+    }
+}

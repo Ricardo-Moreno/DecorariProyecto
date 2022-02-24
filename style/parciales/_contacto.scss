@@ -1,0 +1,49 @@
+@import "./variables";
+@import "./media-queries";
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $rosaClaro;
+    @include tablet {
+        display: flex;
+        justify-content: center;
+    }
+    .contacto_horz {
+        .contacto_titulo {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: $letras;
+        color: black;
+        font-size: $titulos;
+        @include tablet {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+        @include movil {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+        }
+    }
+    .contacto_subtitulo {
+        color: black;
+        }
+    }
+}
+
+.boton {
+    color: white;
+    background-color: black;
+    border-bottom: black;
+}
+
+.boton:hover {
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,21 @@
+
+@import "./variables";
+
+.cartas_texto {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.carta {
+    border: none;
+}
+
+.boton_carta {
+    color: black;
+    background-color: $rosaClaro;
+    border-color: $rosaClaro;
+}
+
+.boton_carta:hover {
+    background-color:   whitesmoke;
+}
