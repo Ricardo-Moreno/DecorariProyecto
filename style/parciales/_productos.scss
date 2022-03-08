@@ -6,13 +6,17 @@
     justify-content: space-around;
 }
 
+.catalogo_subtitulo {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
 
 @for $i from 1 through 3 {
-    .p-#{$i} {font-size: 0.9rem * $i;}
-    .p-#{$i} {color: black;}
+    .p-#{$i} {font-size: 0.8rem * $i;}
+    .p-#{$i} {color: $dorado;}
     .p-#{$i} {display: flex;}
     .p-#{$i} {justify-content: center;}
-    .p-#{$i} {background-color: $rosaClaro;}
     .p-#{$i} {font-family: $subletras;}
     @include movil {
         .p-#{$i} {font-size: 0.6rem * $i;}
@@ -23,6 +27,7 @@
 @each $decorari in uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez, once, doce, trece, catorce, quince, dieciseis {
     .productoDestacado#{$decorari} {
     width: $tamano;
+    height: $tamano;
     -webkit-transform: height 1s, width 1s;
     transform: height 1s, width 1s;
     @include tablet {
@@ -34,6 +39,6 @@
     }
 }
 .catalogo_img:hover {
-    height: 23rem;
-    width: 23rem;
+    height: 18rem;
+    width: 18rem;
 }

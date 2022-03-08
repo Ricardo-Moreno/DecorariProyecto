@@ -2,19 +2,13 @@
 @import "./media-queries";
 
 
-.footer_redes {
-    background: $rosaClaro;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
 .footer_vert {
     background: $rosaClaro;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2rem;
 
     .footer_mapa {
         width: 16rem;

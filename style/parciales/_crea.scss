@@ -2,6 +2,7 @@
 @import "./media-queries";
 
 .crea_horz {
+    box-sizing: border-box;
     padding-top: 3rem;
     padding-bottom: 3rem;
     .crea_titulo {
@@ -13,12 +14,12 @@
         font-family: $letras;
     }
     .crea_vert {
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-        background-color: $dorado;
-        .crea_texto {
-            display: flex;
+    background-color: $dorado;
+    .crea_texto {
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;

@@ -12,9 +12,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: #f4ebd0;
 }
 
@@ -75,6 +72,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 100%;
   margin-top: 1rem;
 }
 
@@ -132,7 +130,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: #d6ad60;
-  font-family: "Amatic SC", cursive;
+  font-family: "Hubballi", cursive;
 }
 
 .tarjetas_horiz {
@@ -185,9 +183,9 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  color: black;
-  background: #f4ebd0;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 8px 8px 8px black;
 }
 
 .catalogo_vert {
@@ -198,12 +196,17 @@
       justify-content: space-around;
 }
 
-.p-1 {
-  font-size: 0.9rem;
+.catalogo_subtitulo {
+  max-width: 100%;
+  margin-top: 2rem;
 }
 
 .p-1 {
-  color: black;
+  font-size: 0.8rem;
+}
+
+.p-1 {
+  color: #d6ad60;
 }
 
 .p-1 {
@@ -219,11 +222,7 @@
 }
 
 .p-1 {
-  background-color: #f4ebd0;
-}
-
-.p-1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Hubballi", cursive;
 }
 
 @media screen and (max-width: 320px) {
@@ -233,11 +232,11 @@
 }
 
 .p-2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .p-2 {
-  color: black;
+  color: #d6ad60;
 }
 
 .p-2 {
@@ -253,11 +252,7 @@
 }
 
 .p-2 {
-  background-color: #f4ebd0;
-}
-
-.p-2 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Hubballi", cursive;
 }
 
 @media screen and (max-width: 320px) {
@@ -267,11 +262,11 @@
 }
 
 .p-3 {
-  font-size: 2.7rem;
+  font-size: 2.4rem;
 }
 
 .p-3 {
-  color: black;
+  color: #d6ad60;
 }
 
 .p-3 {
@@ -287,11 +282,7 @@
 }
 
 .p-3 {
-  background-color: #f4ebd0;
-}
-
-.p-3 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Hubballi", cursive;
 }
 
 @media screen and (max-width: 320px) {
@@ -302,6 +293,7 @@
 
 .productoDestacadouno {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -323,6 +315,7 @@
 
 .productoDestacadodos {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -344,6 +337,7 @@
 
 .productoDestacadotres {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -365,6 +359,7 @@
 
 .productoDestacadocuatro {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -386,6 +381,7 @@
 
 .productoDestacadocinco {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -407,6 +403,7 @@
 
 .productoDestacadoseis {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -428,6 +425,7 @@
 
 .productoDestacadosiete {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -449,6 +447,7 @@
 
 .productoDestacadoocho {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -470,6 +469,7 @@
 
 .productoDestacadonueve {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -491,6 +491,7 @@
 
 .productoDestacadodiez {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -512,6 +513,7 @@
 
 .productoDestacadoonce {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -533,6 +535,7 @@
 
 .productoDestacadodoce {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -554,6 +557,7 @@
 
 .productoDestacadotrece {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -575,6 +579,7 @@
 
 .productoDestacadocatorce {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -596,6 +601,7 @@
 
 .productoDestacadoquince {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -617,6 +623,7 @@
 
 .productoDestacadodieciseis {
   width: 15rem;
+  height: 15rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
 }
@@ -637,8 +644,8 @@
 }
 
 .catalogo_img:hover {
-  height: 23rem;
-  width: 23rem;
+  height: 18rem;
+  width: 18rem;
 }
 
 .wpp_boton .wpp_img {
@@ -656,6 +663,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  max-width: 100%;
   margin-top: 3rem;
 }
 
@@ -665,30 +673,17 @@
 
 .boton_carta {
   color: black;
-  background-color: #f4ebd0;
-  border-color: #f4ebd0;
+  background-color: #d6ad60;
+  border-color: #d6ad60;
 }
 
 .boton_carta:hover {
-  background-color: whitesmoke;
-}
-
-.footer_redes {
-  background: #f4ebd0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 2rem;
+  background-color: #f4ebd0;
 }
 
 .footer_vert {
   background: #f4ebd0;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -697,6 +692,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2rem;
 }
 
 .footer_vert .footer_mapa {
@@ -795,6 +791,8 @@
 }
 
 .crea_horz {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -842,7 +840,7 @@
 }
 
 .preguntas {
-  font-family: "Amatic SC", cursive;
+  font-family: "Hubballi", cursive;
 }
 
 .preguntas_titulo {
@@ -871,6 +869,7 @@
 .preguntas_barra .preguntas_item {
   background-color: #f4ebd0;
   color: black;
+  border: none;
 }
 
 .preguntas_boton {

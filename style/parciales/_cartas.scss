@@ -4,6 +4,7 @@
 .cartas_texto {
     display: flex;
     justify-content: center;
+    max-width: 100%;
     margin-top: 3rem;
 }
 .carta {
@@ -12,10 +13,10 @@
 
 .boton_carta {
     color: black;
-    background-color: $rosaClaro;
-    border-color: $rosaClaro;
+    background-color: $dorado;
+    border-color: $dorado;
 }
 
 .boton_carta:hover {
-    background-color:   whitesmoke;
+    background-color:   $rosaClaro;
 }
