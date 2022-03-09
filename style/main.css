@@ -102,8 +102,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #d6ad60;
-  font-size: 10rem;
+  color: #b68d40;
+  font-size: 8rem;
   font-family: "News Cycle", sans-serif;
 }
 
@@ -119,6 +119,17 @@
   }
 }
 
+.imgCarrusel {
+  width: 600px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .titulo_sub {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,8 +140,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #d6ad60;
+  color: #b68d40;
   font-family: "Hubballi", cursive;
+}
+
+.carrousel_link {
+  text-decoration: none;
+  color: #b68d40;
 }
 
 .tarjetas_horiz {
@@ -156,7 +172,7 @@
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_img_bg {
   width: 15rem;
-  height: 15rem;
+  height: 20rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
   display: -webkit-box;
@@ -173,8 +189,8 @@
 }
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_img_bg:hover {
-  height: 23rem;
-  width: 23rem;
+  height: 22rem;
+  width: 22rem;
 }
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_text {
@@ -183,9 +199,10 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  color: white;
-  text-shadow: 8px 8px 8px black;
+  font-size: 2rem;
+  font-weight: 200;
+  color: black;
+  text-shadow: 8px 8px 8px white;
 }
 
 .catalogo_vert {
@@ -206,7 +223,7 @@
 }
 
 .p-1 {
-  color: #d6ad60;
+  color: #b68d40;
 }
 
 .p-1 {
@@ -236,7 +253,7 @@
 }
 
 .p-2 {
-  color: #d6ad60;
+  color: #b68d40;
 }
 
 .p-2 {
@@ -266,7 +283,7 @@
 }
 
 .p-3 {
-  color: #d6ad60;
+  color: #b68d40;
 }
 
 .p-3 {
@@ -656,25 +673,28 @@
   right: 3%;
 }
 
-.cartas_texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 100%;
-  margin-top: 3rem;
+.titulo_sub {
+  color: #b68d40;
+  margin-top: 4rem;
+}
+
+.carta_texto {
+  color: #b68d40;
 }
 
 .carta {
   border: none;
 }
 
+.carta .carta_img {
+  width: 15rem;
+  height: 20rem;
+}
+
 .boton_carta {
   color: black;
-  background-color: #d6ad60;
-  border-color: #d6ad60;
+  background-color: #b68d40;
+  border-color: #b68d40;
 }
 
 .boton_carta:hover {
@@ -697,6 +717,9 @@
 
 .footer_vert .footer_mapa {
   width: 16rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -706,6 +729,30 @@
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.footer_vert .footer_text {
+  margin-right: 1rem;
+}
+
+.footer_vert_icon .footer_vert_redes {
+  background: #f4ebd0;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.imgFooter {
+  width: 3rem;
+  height: 3rem;
 }
 
 .contacto {
@@ -742,7 +789,7 @@
           align-items: center;
   font-family: "News Cycle", sans-serif;
   color: black;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -822,7 +869,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #d6ad60;
+  background-color: #b68d40;
 }
 
 .crea_horz .crea_vert .crea_texto {
@@ -850,8 +897,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #d6ad60;
-  font-size: 3rem;
+  color: #b68d40;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -873,7 +922,7 @@
 }
 
 .preguntas_boton {
-  color: #d6ad60;
+  color: #b68d40;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

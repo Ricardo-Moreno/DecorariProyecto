@@ -16,8 +16,8 @@
             display: inline-block;
             text-align: center;
                 .tarjetas_img_bg {
-                    width: 15rem;
-                    height: 15rem;
+                    width: $tamano;
+                    height: $tamanoDos;
                     -webkit-transform: height 1s, width 1s;
                     transform: height 1s, width 1s;
                     display: -webkit-box;
@@ -30,17 +30,18 @@
                         }
                 }
                 .tarjetas_img_bg:hover {
-                    height: 23rem;
-                    width: 23rem;
+                    height: 22rem;
+                    width: 22rem;
                 }
                 .tarjetas_text {
                     position: absolute;
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
-                    font-size: 2.5rem;
-                    color: white;
-                    text-shadow: 8px 8px 8px rgba(0, 0, 0, 8.0);
+                    font-size: 2rem;
+                    font-weight: 200;
+                    color: black;
+                    text-shadow: 8px 8px 8px white;
                 }
         }
     }

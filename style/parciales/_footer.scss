@@ -12,9 +12,31 @@
 
     .footer_mapa {
         width: 16rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem;
         @include movil {
             width: 8rem;
             display: flex;
         }
     }
+    .footer_text{
+        margin-right: 1rem;
+    }
 }
+
+.footer_vert_icon {
+    .footer_vert_redes {
+    background: $rosaClaro;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    }
+}
+.imgFooter {
+        width: 3rem;
+        height: 3rem;
+    }

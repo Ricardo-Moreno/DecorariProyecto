@@ -8,6 +8,8 @@
         justify-content: center;
         color: $dorado;
         font-size: $titulos;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         @include tablet {
             font-size: 2rem;
         }

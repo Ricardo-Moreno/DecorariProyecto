@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     color: $dorado;
-    font-size: 10rem;
+    font-size: $titulouno;
     font-family: $letras;
     @include tablet {
         font-size: 4rem;
@@ -16,10 +16,22 @@
     }
 }
 
+.imgCarrusel {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
 .titulo_sub {
     display: flex;
     justify-content: center;
     align-items: center;
     color: $dorado;
     font-family: $subletras;
+}
+
+.carrousel_link {
+    text-decoration: none;
+    color: $dorado;
 }
