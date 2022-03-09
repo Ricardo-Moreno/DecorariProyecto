@@ -13,6 +13,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f4ebd0;
+  color: #b68d40;
+  font-family: "Hubballi", cursive;
 }
 
 .header_horz {
@@ -130,7 +132,7 @@
           align-items: center;
 }
 
-.titulo_sub {
+.titulo_sub_carrusel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,8 +173,8 @@
 }
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_img_bg {
-  width: 15rem;
-  height: 20rem;
+  width: 20rem;
+  height: 25rem;
   -webkit-transform: height 1s, width 1s;
   transform: height 1s, width 1s;
   display: -webkit-box;
@@ -200,9 +202,9 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 350;
   color: black;
-  text-shadow: 8px 8px 8px white;
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
 }
 
 .catalogo_vert {
@@ -674,6 +676,17 @@
 }
 
 .titulo_sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b68d40;
+  font-family: "Hubballi", cursive;
   color: #b68d40;
   margin-top: 4rem;
 }
@@ -845,6 +858,22 @@
 }
 
 .crea_horz .crea_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b68d40;
+  font-family: "Hubballi", cursive;
+  color: #b68d40;
+  margin-top: 2rem;
+}
+
+.crea_horz .crea_titulo_sub {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

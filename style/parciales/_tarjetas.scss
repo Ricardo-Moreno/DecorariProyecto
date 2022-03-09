@@ -16,8 +16,8 @@
             display: inline-block;
             text-align: center;
                 .tarjetas_img_bg {
-                    width: $tamano;
-                    height: $tamanoDos;
+                    width: 20rem;
+                    height: 25rem;
                     -webkit-transform: height 1s, width 1s;
                     transform: height 1s, width 1s;
                     display: -webkit-box;
@@ -39,9 +39,9 @@
                     left: 50%;
                     transform: translate(-50%, -50%);
                     font-size: 2rem;
-                    font-weight: 200;
+                    font-weight: 350;
                     color: black;
-                    text-shadow: 8px 8px 8px white;
+                    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.8);
                 }
         }
     }
