@@ -191,8 +191,8 @@
 }
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_img_bg:hover {
-  height: 22rem;
   width: 22rem;
+  height: 27rem;
 }
 
 .tarjetas_vert .tarjetas_link .tarjetas_img .tarjetas_text {
@@ -714,6 +714,29 @@
   background-color: #f4ebd0;
 }
 
+.footer_link_icon {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer_link_icon .footer_link_img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.footer_link_icon .footer_text {
+  font-family: "Hubballi", cursive;
+  color: black;
+  margin-left: 0.5rem;
+}
+
 .footer_vert {
   background: #f4ebd0;
   max-width: 100%;
@@ -742,10 +765,6 @@
     display: -ms-flexbox;
     display: flex;
   }
-}
-
-.footer_vert .footer_text {
-  margin-right: 1rem;
 }
 
 .footer_vert_icon .footer_vert_redes {
@@ -959,5 +978,94 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #f4ebd0;
+}
+
+.deco_horz {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.deco_horz .deco_titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #b68d40;
+  font-family: "Hubballi", cursive;
+  color: #b68d40;
+  margin-top: 2rem;
+}
+
+.deco_horz .deco_titulo_sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-size: 4rem;
+  font-family: "News Cycle", sans-serif;
+}
+
+.deco_horz .deco_vert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.deco_horz .deco_vert .deco_img {
+  width: 30rem;
+  height: 30rem;
+  border: 2px solid #b68d40;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.deco_horz .deco_vert .deco_text_lista {
+  font-family: "Hubballi", cursive;
+  color: black;
+  font-size: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.deco_horz .deco_vert .deco_text_lista .deco_text {
+  font-family: "Hubballi", cursive;
+  color: #b68d40;
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.deco_text_bienvenida {
+  font-family: "Hubballi", cursive;
+  color: #b68d40;
+  font-size: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

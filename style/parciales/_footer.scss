@@ -2,6 +2,25 @@
 @import "./media-queries";
 
 
+
+
+
+    .footer_link_icon {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .footer_link_img {
+            width: 5rem;
+            height: 5rem;
+        }
+        .footer_text {
+            font-family: $subletras;
+            color: black;
+            margin-left: 0.5rem;
+        }
+    }
+
 .footer_vert {
     background: $rosaClaro;
     max-width: 100%;
@@ -19,9 +38,6 @@
             width: 8rem;
             display: flex;
         }
-    }
-    .footer_text{
-        margin-right: 1rem;
     }
 }
 
