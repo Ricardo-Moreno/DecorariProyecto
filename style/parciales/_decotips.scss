@@ -27,26 +27,78 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 2rem;
+        @include tablet {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @include movil {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .deco_img {
             width: 30rem;
             height: 30rem;
             border: 2px solid $dorado;
             margin-left: 4rem;
             margin-right: 4rem;
+            @include tablet {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 15rem;
+                height: 15rem;
+                display: flex;
+                border: 1px solid $dorado;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+            @include movil {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 9rem;
+                height: 9rem;
+                display: flex;
+                border: 0.5px solid $dorado;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
         }
         .deco_text_lista {
             font-family: $subletras;
             color: black;
-            font-size: 3rem;
-            margin-left: 4rem;
-            margin-right: 4rem;
-            align-items: center;
-            .deco_text {
-            font-family: $subletras;
-            color: $dorado;
             font-size: 2rem;
             margin-left: 4rem;
             margin-right: 4rem;
+            align-items: center;
+                @include tablet {
+                    font-size: 1rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+                @include movil {
+                    font-size: 0.5rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
+            .deco_text {
+            font-family: $subletras;
+            color: $dorado;
+            font-size: 1.5rem;
+            margin-left: 4rem;
+            margin-right: 4rem;
+                @include tablet {
+                    font-size: 1rem;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+                @include movil {
+                    font-size: 0.5rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                }
             }
         }
     }
@@ -55,8 +107,18 @@
 .deco_text_bienvenida {
             font-family: $subletras;
             color: $dorado;
-            font-size: 3rem;
+            font-size: 2rem;
             margin-left: 4rem;
             margin-right: 4rem;
             align-items: center;
+            @include tablet {
+                font-size: 1rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+            @include movil {
+                font-size: 0.5rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
         }
